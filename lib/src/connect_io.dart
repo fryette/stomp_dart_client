@@ -13,6 +13,7 @@ Future<WebSocketChannel> connect(StompConfig config) async {
       headers: config.webSocketConnectHeaders,
       customClient: config.customHttpClientFactory?.call()
     );
+
     if (config.connectionTimeout.inMilliseconds > 0) {
       webSocketFuture = webSocketFuture.timeout(config.connectionTimeout);
     }

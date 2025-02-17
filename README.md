@@ -137,7 +137,7 @@ StompConfig(
 
 #### Running unit tests
 ```dart
-dart run test -p "chrome,vm" test/
+dart run test -p "chrome,vm" --compiler chrome:dart2wasm,chrome:dart2js test/
 ```
 
 #### Generating coverage data

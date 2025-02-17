@@ -1,3 +1,9 @@
+## 2.1.3
+  - Added `pingInterval` to `copyWith` for `StompConfig`. Thanks @AndruhovSasha
+
+## 2.1.2
+  - Fixed oversight in move to `package:web` which made the package not work with wasm.
+
 ## 2.1.1
   - Added `pingInterval` to `StompConfig` to control the ping interval of IO WebSockets. Thanks @AndruhovSasha
 
